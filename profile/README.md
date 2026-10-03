@@ -17,12 +17,15 @@ Each bus goes to your headphones, to the stream, or to both, and OBS gets one cl
   and mute, balance and mono headphones.
 - **OBS in one click.** Rostrum sets OBS up, mutes sources that would double your audio, and can
   undo it all. LIVE and REC badges follow OBS, with a warning if you go live with your mic muted.
+- **A cleaner mic.** Optional noise removal (RNNoise), rumble filter, gate, EQ, compressor and
+  limiter, for the stream and every app that records your mic. Check Mic plays your voice back in
+  your headphones, exactly as viewers hear it, and says if the level is right.
 - **Scenes and hotkeys.** Recall every level at once, fade between scenes, push to talk, panic
   mute, auto-ducking, and the `rostrum` command or D-Bus for Stream Deck buttons.
 - **Safe by design.** The mix lives in PipeWire, so audio keeps flowing if Rostrum quits. Your
   mic never falls back to another device on stream unless you allow it.
-- **Private.** No telemetry and no accounts. Crash reports and update checks only with your
-  say-so.
+- **Private.** No telemetry and no accounts, and your audio never leaves your computer. Crash
+  reports and update checks only with your say-so.
 
 A native Qt 6 and KDE Kirigami app for any current Linux desktop with PipeWire, developed on
 KDE Plasma. Free and open source under Apache-2.0.
